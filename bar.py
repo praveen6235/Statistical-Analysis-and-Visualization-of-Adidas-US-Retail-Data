@@ -10,9 +10,9 @@ data = pd.read_csv("C:\\Users\\prave\\OneDrive\\Desktop\\python12314539\\data.cs
 
 plt.title("Total Sales Per Product Using Bar-Chart")
 
-plt.xlabel("Product")
+plt.xlabel("Product") # x-axis
 
-plt.ylabel("Total Sales")
+plt.ylabel("Total Sales") # y-axis
 
 plt.bar(data['Product'], data['Total Sales'], color = 'skyblue')
 
