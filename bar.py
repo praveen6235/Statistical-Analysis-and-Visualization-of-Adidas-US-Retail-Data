@@ -6,6 +6,8 @@ import seaborn as sns
 
 data = pd.read_csv("C:\\Users\\prave\\OneDrive\\Desktop\\python12314539\\data.csv")
 
+# Using Matplotlib, pandas, seaborn lib to plot the bar graph.
+
 plt.title("Total Sales Per Product Using Bar-Chart")
 
 plt.xlabel("Product")
