@@ -8,7 +8,7 @@ data = pd.read_csv("C:\\Users\\prave\\OneDrive\\Desktop\\python12314539\\data.cs
 
 # Using Matplotlib, pandas, seaborn lib to plot the bar graph.
 
-plt.title("Total Sales Per Product Using Bar-Chart")
+plt.title("Total Sales Per Product Using Bar-Chart") # title
 
 plt.xlabel("Product") # x-axis
 
