@@ -6,6 +6,8 @@ import seaborn as sns
 
 data = pd.read_csv("C:\\Users\\prave\\OneDrive\\Desktop\\python12314539\\data.csv")
 
+# Using Adidas US sales Dataset, I created a Scatter-Plot
+
 plt.figure(figsize=(10, 6))
 
 plt.scatter(data['Total Sales'], data['Operating Profit'], alpha = 0.5,color = 'blue')
