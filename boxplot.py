@@ -6,6 +6,8 @@ import seaborn as sns
 
 data = pd.read_csv("C:\\Users\\prave\\OneDrive\\Desktop\\python12314539\\data.csv")
 
+#Using Us Adidas Sales Dataset, I Created a Box-Plot
+
 plt.figure(figsize =(10, 6))
 
 sns.boxplot(x = data['Total Sales'], color = 'lightgreen')
