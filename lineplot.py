@@ -6,6 +6,8 @@ import seaborn as sns
 
 data = pd.read_csv("C:\\Users\\prave\\OneDrive\\Desktop\\python12314539\\data.csv")
 
+#Using US Adidas Sales Dataset, I Created a Line-Chart
+
 data['Invoice Date'] = pd.to_datetime(data['Invoice Date'], format = '%d-%m-%Y')
 
 data['Month'] = data['Invoice Date'].dt.to_period('M')
