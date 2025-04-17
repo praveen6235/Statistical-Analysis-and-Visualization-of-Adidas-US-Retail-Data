@@ -6,6 +6,8 @@ import seaborn as sns
 
 data = pd.read_csv("C:\\Users\\prave\\OneDrive\\Desktop\\python12314539\\data.csv")
 
+# Using US Adiada sales dataset I Created a Pie Chart
+
 sales_by_product = data.groupby('Product')['Units Sold'].sum()
 
 plt.figure(figsize = (8, 8))
