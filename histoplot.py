@@ -6,6 +6,8 @@ import seaborn as sns
 
 data = pd.read_csv("C:\\Users\\prave\\OneDrive\\Desktop\\python12314539\\data.csv")
 
+#Using US sales dataset, I Created a Histo-Plot
+
 plt.figure(figsize = (10, 6))
 
 sns.histplot(data['Units Sold'], bins = 30, kde = True, color = 'skyblue')
