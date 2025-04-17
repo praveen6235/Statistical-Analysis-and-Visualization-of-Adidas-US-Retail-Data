@@ -6,6 +6,8 @@ import seaborn as sns
 
 data = pd.read_csv("C:\\Users\\prave\\OneDrive\\Desktop\\python12314539\\data.csv")
 
+#Using US Adidas sales dataset, I Created a Heatmap
+
 num_data = data.select_dtypes(include = ['float64', 'int64'])
 
 corr = num_data.corr()
