@@ -8,3 +8,7 @@ The visualizations presented here offer a detailed statistical analysis and grap
 # Bar Graph:
 
 This Python script visualizes sales data using Matplotlib, Pandas, and Seaborn libraries. It reads data from a CSV file and creates a bar chart showing total sales per product. The x-axis represents different products, while the y-axis shows their corresponding total sales. The bars are colored sky blue, and the product names are rotated for better readability. `plt.tight_layout()` is used to ensure the layout fits well before displaying the chart.
+
+# Histo Graph:
+
+This Python script reads a US sales dataset using pandas and then visualizes the distribution of units sold using Seaborn and Matplotlib. A histogram with 30 bins and a KDE (Kernel Density Estimate) curve is plotted to show the spread and frequency of sales, styled with a sky blue color. The plot is enhanced with a title, axis labels, and a grid for better readability.
