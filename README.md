@@ -8,3 +8,7 @@ The visualizations presented here offer a detailed statistical analysis and grap
 # Bar Graph:
 
 This Python script visualizes sales data using Matplotlib, Pandas, and Seaborn libraries. It reads data from a CSV file and creates a bar chart showing total sales per product. The x-axis represents different products, while the y-axis shows their corresponding total sales. The bars are colored sky blue, and the product names are rotated for better readability. `plt.tight_layout()` is used to ensure the layout fits well before displaying the chart.
+
+#pie chart:
+
+This Python script uses the US Adiada sales dataset to create a pie chart that visually represents the percentage of units sold per product. It utilizes the pandas library to read and group the data by product, summing up the total units sold. With matplotlib, it then plots these values in a pie chart, labeling each slice with the corresponding product and percentage share. The chart is styled for clarity with a defined figure size, a start angle for better orientation, and an equal axis to maintain the circular shape. This visualization helps in quickly identifying the top-selling products and understanding their share in total sales.
